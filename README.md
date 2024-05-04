@@ -23,10 +23,6 @@ Este é um projeto de atualização de perfil desenvolvido como parte do aprendi
 3. Execute o servidor local e abra o projeto em seu navegador.
 4. Siga as instruções na página para atualizar seu perfil.
 
-## Capturas de Tela
-
-*Insira aqui algumas capturas de tela do projeto, mostrando sua interface e funcionalidades.*
-
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma **issue** para discutir possíveis alterações ou enviar um **pull request** para adicionar novos recursos.
