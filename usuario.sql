@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 04/05/2024 às 21:04
+-- Tempo de geração: 06/05/2024 às 22:06
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -33,7 +33,11 @@ CREATE TABLE `usuario` (
   `idade` int(11) DEFAULT NULL,
   `email` varchar(255) NOT NULL,
   `telefone` varchar(65) DEFAULT NULL,
-  `endereco` varchar(255) DEFAULT NULL,
+  `cep` varchar(255) DEFAULT NULL,
+  `rua` varchar(255) DEFAULT NULL,
+  `bairro` varchar(255) DEFAULT NULL,
+  `cidade` varchar(255) DEFAULT NULL,
+  `uf` varchar(2) DEFAULT NULL,
   `biografia` text DEFAULT NULL,
   `senha` varchar(100) NOT NULL,
   `ft_perfil` varchar(100) DEFAULT './images/default-avatar.png'
@@ -43,9 +47,9 @@ CREATE TABLE `usuario` (
 -- Despejando dados para a tabela `usuario`
 --
 
-INSERT INTO `usuario` (`id_usuario`, `nome`, `idade`, `email`, `telefone`, `endereco`, `biografia`, `senha`, `ft_perfil`) VALUES
-(1, 'Ian Kevin Santos', 27, 'ian_kevin_santos@jetstar.com.br', '+5565986156150', 'Rua Curiangu, 253, CPA IV, Cuiabá, MT, 78058-246', 'Especialista em Desenvolvimento Web e Front-End com conhecimentos em HTML, CSS e JavaScript. Apaixonado por criar experiências digitais incríveis. #DesenvolvimentoWeb #FrontEnd #HTML #CSS #JavaScript', 'teste1234', './images/default-avatar.png'),
-(2, 'Elias Rafael Vinicius Nunes', 25, 'elias_rafael_nunes@doucedoce.com.br', NULL, 'Rua São Cosmo, 119, Conjunto Rui Lino, Rio Branco, AC', '1. Especialista em Desenvolvimento Web com habilidades em HTML, CSS, JavaScript, PHP e SQL. Apaixonado por criar soluções inovadoras e funcionais para a web. Vamos trabalhar juntos para transformar suas ideias em realidade!', '6ebe8c6c6cb7862fdd2738cc9a59bae2', 'foto_eu.jpg');
+INSERT INTO `usuario` (`id_usuario`, `nome`, `idade`, `email`, `telefone`, `cep`, `rua`, `bairro`, `cidade`, `uf`, `biografia`, `senha`, `ft_perfil`) VALUES
+(1, 'Ian Kevin Santos', 27, 'ian_kevin_santos@jetstar.com.br', '+5565986156150', 'Rua Curiangu, 253, CPA IV, Cuiabá, MT, 78058-246', NULL, NULL, NULL, NULL, 'Especialista em Desenvolvimento Web e Front-End com conhecimentos em HTML, CSS e JavaScript. Apaixonado por criar experiências digitais incríveis. #DesenvolvimentoWeb #FrontEnd #HTML #CSS #JavaScript', 'teste1234', './images/default-avatar.png'),
+(2, 'Elias Rafael Vinicius Nunes', 25, 'elias_rafael_nunes@doucedoce.com.br', '5568999250728', '69919-858', 'Rua São Cosmo', 'Conjunto Rui Lino', 'Rio Branco', 'AC', 'Especialista em Desenvolvimento Web com habilidades em HTML, CSS, JavaScript, PHP e SQL. Apaixonado por criar soluções inovadoras e funcionais para a web. Vamos trabalhar juntos para transformar suas ideias em realidade!', '6ebe8c6c6cb7862fdd2738cc9a59bae2', 'foto_eu.jpg');
 
 --
 -- Índices para tabelas despejadas
