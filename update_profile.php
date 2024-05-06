@@ -105,16 +105,13 @@ if (isset($_POST['update_profile'])) {
                <input type="text" name="update_cep" id="cep" value="<?php echo $fetch['cep']; ?>"
                   onblur="pesquisacep(this.value);" class="box">
                <span>Sua rua :</span>
-               <input type="text" name="update_street" id="rua" value="<?php echo $fetch['rua']; ?>" class="box endereco"
-                  readonly>
+               <input type="text" name="update_street" id="rua" value="<?php echo $fetch['rua']; ?>" class="box">
                <span>Seu bairro :</span>
-               <input type="text" name="update_district" id="bairro" value="<?php echo $fetch['bairro']; ?>" class="box endereco"
-                  readonly>
+               <input type="text" name="update_district" id="bairro" value="<?php echo $fetch['bairro']; ?>" class="box">
                <span>Sua cidade :</span>
-               <input type="text" name="update_city" id="cidade" value="<?php echo $fetch['cidade']; ?>" class="box endereco"
-                  readonly>
+               <input type="text" name="update_city" id="cidade" value="<?php echo $fetch['cidade']; ?>" class="box">
                <span>Seu estado :</span>
-               <input type="text" name="update_state" id="uf" value="<?php echo $fetch['uf']; ?>" class="box endereco" readonly>
+               <input type="text" name="update_state" id="uf" value="<?php echo $fetch['uf']; ?>" class="box">
                <span>Sua biografia :</span>
                <textarea name="update_bio" class="box"><?php echo $fetch['biografia']; ?></textarea>
                <span>Atualizar foto perfil :</span>
