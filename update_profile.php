@@ -98,7 +98,7 @@ if (isset($_POST['update_profile'])) {
                   <div class="btn-primary tooltip">
                      <i class="fa fa-question-circle" aria-hidden="true"></i>
                      <div class="bottom">
-                        <p>Os campos de endereço serão automaticamente preenchidos!</p>
+                        <p><span><i class="fa-solid fa-circle-info"></i></span>Preenchendo o campo de CEP, os campos de endereço serão automaticamente preenchidos!</p>
                      </div>
                   </div>
                </div>
