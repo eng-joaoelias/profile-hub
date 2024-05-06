@@ -6,6 +6,7 @@ Este é um projeto de atualização de perfil desenvolvido como parte do aprendi
 
 - Atualização de nome, email, idade, endereço e biografia.
 - Upload de uma foto de perfil.
+- Preenchimento automático de endereço com base no CEP fornecido.
 - Interface de usuário intuitiva e amigável.
 
 ## Tecnologias Utilizadas
@@ -15,6 +16,7 @@ Este é um projeto de atualização de perfil desenvolvido como parte do aprendi
 - **PHP:** Utilizado para processamento do lado do servidor, interagindo com o banco de dados e realizando operações de atualização.
 - **MySQL:** Utilizado como banco de dados para armazenar as informações dos usuários.
 - **Bootstrap:** Framework CSS utilizado para facilitar o desenvolvimento responsivo e a criação de interfaces amigáveis.
+- **JavaScript:** Utilizado para preenchimento automático do endereço com base no CEP fornecido.
 
 ## Como Usar
 
