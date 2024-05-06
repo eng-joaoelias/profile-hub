@@ -231,10 +231,6 @@
    flex-direction: row;
 }
 
-.update-profile form .flex .inputBox .box.endereco:hover {
-   cursor: not-allowed;
-}
-
 .update-profile form .flex .inputBox textarea.box {
    resize: none;
    height: 16vh;
