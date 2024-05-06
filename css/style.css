@@ -226,12 +226,25 @@
    margin-top: 10px;
 }
 
+.update-profile form .flex .inputBox .info-cep {
+   display: flex;
+   flex-direction: row;
+}
+
+.update-profile form .flex .inputBox .box.endereco:hover {
+   cursor: not-allowed;
+}
+
+.update-profile form .flex .inputBox textarea.box {
+   resize: none;
+   height: 16vh;
+}
+
 /*TOOLTIP*/
 
 .tooltip {
    display: inline-block;
    position: relative;
-   border-bottom: 1px dotted #666;
    text-align: left;
 }
 
