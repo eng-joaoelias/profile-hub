@@ -50,6 +50,7 @@ if (isset($_POST['update_profile'])) {
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
    <title>Atualizar o perfil</title>
 
    <!-- custom css file link  -->
@@ -98,7 +99,8 @@ if (isset($_POST['update_profile'])) {
                   <div class="btn-primary tooltip">
                      <i class="fa fa-question-circle" aria-hidden="true"></i>
                      <div class="bottom">
-                        <p><span><i class="fa-solid fa-circle-info"></i></span>Preenchendo o campo de CEP, os campos de endereço serão automaticamente preenchidos!</p>
+                        <p><span><i class="fa-solid fa-circle-info"></i></span>Preenchendo o campo de CEP, os campos de
+                           endereço serão automaticamente preenchidos!</p>
                      </div>
                   </div>
                </div>
@@ -107,7 +109,8 @@ if (isset($_POST['update_profile'])) {
                <span>Sua rua :</span>
                <input type="text" name="update_street" id="rua" value="<?php echo $fetch['rua']; ?>" class="box">
                <span>Seu bairro :</span>
-               <input type="text" name="update_district" id="bairro" value="<?php echo $fetch['bairro']; ?>" class="box">
+               <input type="text" name="update_district" id="bairro" value="<?php echo $fetch['bairro']; ?>"
+                  class="box">
                <span>Sua cidade :</span>
                <input type="text" name="update_city" id="cidade" value="<?php echo $fetch['cidade']; ?>" class="box">
                <span>Seu estado :</span>
